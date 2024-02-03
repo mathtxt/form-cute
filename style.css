@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+  --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url(image/porquinho-fofo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+}
+
+.formulario{
+  font-family: var(--fonte-principal);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 3%;
+  background-color: rgba(18, 15, 17, 0.849);
+  border-radius: 5px;
+}
+
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+h1{
+  font-size: 22px;
+}
+
+input {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0.2px solid rgb(109, 61, 91);
+  color: whitesmoke;
+}
+
+input:last-child{
+  background-color: rgba(178, 145, 145, 0.921);
+  font-family: var(--fonte-principal);
+  font-weight: 600;
+}
+
+
+
+
